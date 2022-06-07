@@ -9,9 +9,9 @@ seeds:
     +schema: terminology
     cpt4test:
       +column_types: 
-        code: varchar(50)
-        description: varchar(255)
+        code: varchar(100)
+        description: varchar(500)
     test:
       +column_types: 
-        code: test1(50)
-        description: test2(255)
+        code: test1(100)
+        description: test2(500)
