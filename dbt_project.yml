@@ -11,3 +11,4 @@ seeds:
       +column_types: 
         code: varchar(50)
         description: varchar(255)
+    test:
