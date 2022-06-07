@@ -12,3 +12,6 @@ seeds:
         code: varchar(50)
         description: varchar(255)
     test:
+      +column_types: 
+        code: test1(50)
+        description: test2(255)
