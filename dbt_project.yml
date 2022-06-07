@@ -1,0 +1,13 @@
+name: 'terminology'
+version: '1.0.0'
+config-version: 2
+
+seed-paths: ["terminology"]
+
+seeds:
+  terminology:
+    +schema: terminology
+    CTP4:
+      +column_types: 
+        code: varchar(50)
+        description: varchar(255)
