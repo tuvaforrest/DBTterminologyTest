@@ -7,11 +7,6 @@ seed-paths: ["terminology"]
 seeds:
   terminology:
     +schema: terminology
-    cpt4test:
-      +column_types: 
-        code: varchar(100)
-        description: varchar(500)
-    test:
       +column_types: 
         code: test1(100)
         description: test2(500)
