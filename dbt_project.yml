@@ -7,6 +7,14 @@ seed-paths: ["terminology"]
 seeds:
   terminology:
     +schema: terminology
+    test:
       +column_types: 
-        code: test1(100)
-        description: test2(500)
+        code: varchar(100)
+        description: varchar(500)
+    icd_10_cm:
+      +column_types: 
+        icd_10_cm: varchar(100)
+        valid_flag: varchar(10)
+        short_description: varchar(1000)
+        long_description: varchar(1000)
+    
