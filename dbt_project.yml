@@ -17,4 +17,11 @@ seeds:
         valid_flag: varchar(10)
         short_description: varchar(1000)
         long_description: varchar(1000)
-    
+    zipCodes:
+      +column_types:
+        state_fips: varchar(10)
+        state: varchar(25)
+        state_abbr: varchar(10)
+        zipcode: varchar(10)
+        county: varchar(200)
+        city: varchar(200)
